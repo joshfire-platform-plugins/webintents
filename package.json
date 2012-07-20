@@ -1,0 +1,23 @@
+{
+  "name": "webintents",
+  "fullName": "Web Intents wrapper",
+  "version": "0.1.0",
+  "keywords": [
+    "user interaction",
+    "service"
+  ],
+  "description": "The Web Intents wrapper handles user actions within a template such as \"Share\", \"Edit\", or \"Like\" and delegates the execution of the action to the underlying user agent. Google Chrome is the only Web browser that supports Web Intents for the time being. The add-on uses a JavaScript shim to emulate the Web Intents API in other Web browsers.",
+  "joshfire": {
+    "images": {
+      "small": "marketing/image-small.png",
+      "big": "marketing/image-small.png"
+    },   
+    "hooks": [
+      "bootstrap",
+      "share",
+      "edit",
+      "like"
+    ],
+    "options": {}
+  }
+}
